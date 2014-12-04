@@ -1,0 +1,69 @@
+.cognits
+{
+	color:#696969;
+	font-size:23px;
+	margin: 15px 10px 10px 10px; 
+}
+.home
+{
+	color:#696969;
+	font-size:17px;
+	float:right; 
+	margin: -30px 30px 10px 10px; 
+}
+.buscar
+{
+	color:#696969;
+	font-size:17px; 
+	float: right;
+	margin: -30px 30px 10px 10px; 
+}
+.cognits_blog
+{
+	font-size: 40px;
+	margin-left: 300px;
+}
+.titulo
+{
+	font-size: 22px;
+	margin-left: 300px;
+	margin-top: -10px;
+	margin-bottom: 150px;
+}
+.subtitle
+{
+	margin-left: 300px ;
+	color: #3366FF ;
+	font-size: 30px;
+}
+.greatest
+{
+	margin-left: 300px;
+	margin-top: -20px;
+	margin-bottom: 25px;
+	color: #3366FF ;
+	font-size: 30px;
+}
+.subtitle2
+{
+	margin-left: 300px;
+	margin-top: -5px;
+	color: #3366FF;
+	font-size: 22px;
+}
+.subtitle3
+{
+	margin-left: 300px;
+	margin-top: -10px;
+	margin-bottom: 25px;
+}
+.post
+{
+	color:#3366FF;
+	text-align: center;
+	border-radius: 10%;
+}
+div
+{
+	margin-top: -19px;
+}
