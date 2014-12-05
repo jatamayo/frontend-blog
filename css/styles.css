@@ -6,14 +6,14 @@
 }
 .home
 {
-	color:#696969;
-	font-size:17px;
+	color:#0080FF;
+	font-size:20px;
 	float:right; 
 	margin: -30px 30px 10px 10px; 
 }
 .buscar
 {
-	color:#696969;
+	color:#0489B1;
 	font-size:17px; 
 	float: right;
 	margin: -30px 30px 10px 10px; 
@@ -35,14 +35,14 @@
 	margin-left: 25px ;
 	color: #0489B1;
 	font-size: 30px;
-	margin-right: 50px;
+	margin-right: 100px;
 }
 .subtitle4
 {
 	margin-left: 25px ;
 	color: #0489B1;
 	font-size: 30px;
-	margin-right: 175px;
+	margin-right: 90px;
 }
 .greatest
 {
@@ -56,9 +56,9 @@
 {
 	margin-left: 25px;
 	margin-top: -10px;
-	margin-right: 235px;
+	margin-right: 50px;
 	color: #0489B1;
-	font-size: 22px;
+	font-size: 30px;
 }
 .subtitle3
 {
@@ -126,6 +126,66 @@ div
 	border-radius: 3%;
 }
 .boton4
+{
+	background-color: none;
+	margin-left: 270px;
+	text-align: left;
+	margin-bottom: 50px;
+	
+	border-radius: 3%;
+}
+
+.post_uno
+{
+	margin-left: 50px ;
+	color: #6E6E6E;
+	font-size: 30px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+
+	display: none;
+}
+
+.post_dos
+{
+	margin-left: 295px ;
+	color: #6E6E6E;
+	font-size: 30px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+
+	display: none;
+}
+
+.post_tres
+{
+	margin-left: 295px ;
+	color: #6E6E6E;
+	font-size: 30px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+
+	display: none;
+}
+.post_return_boton
+{
+	background-color: none;
+	margin-left: 270px;
+	text-align: left;
+	margin-bottom: 50px;
+	
+	border-radius: 3%;
+}
+.post2_return_boton
+{
+	background-color: none;
+	margin-left: 270px;
+	text-align: left;
+	margin-bottom: 50px;
+	
+	border-radius: 3%;
+}
+.post3_return_boton
 {
 	background-color: none;
 	margin-left: 270px;
