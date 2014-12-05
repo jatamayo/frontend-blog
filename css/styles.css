@@ -62,8 +62,19 @@
 	color:#3366FF;
 	text-align: center;
 	border-radius: 10%;
+	margin-left:1000px;
+	width:115px;
+	height:25px;
+	background-color:#E6E8FA;
 }
 div
 {
 	margin-top: -19px;
+
+}
+
+#red {
+	background-color:red;
+	width: 100px;
+	height: 100px;
 }
