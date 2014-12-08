@@ -24,31 +24,31 @@ $('.cuerpo').fadeOut('slow');
 //*************************** boton 2 ******************************************
 $(document).ready(function() {
 $('.boton2').click(function() {
-$('.cuerpo').hide('fast');
-$('.posts').show('fast');
-$('.post_uno').show('fast');
-$('.coment_uno').show('fast');
+$('.cuerpo').hide('slow');
+$('.posts').show('slow');
+$('.post_uno').show('slow');
+$('.coment_uno').show('slow');
 });
 });
 //******************************************************************************
 //*************************** boton 3 ******************************************
 $(document).ready(function() {
 $('.boton3').click(function() {
-$('.cuerpo').fadeOut('fast');
-$('.posts2').show('fast');
-$('.post_dos').show('fast');
-$('.post-comentario-dos').show('fast');
-$('.coment_dos').show('fast');
+$('.cuerpo').fadeOut('slow');
+$('.posts2').show('slow');
+$('.post_dos').show('slow');
+$('.post-comentario-dos').show('slow');
+$('.coment_dos').show('slow');
 });
 });
 //******************************************************************************
 //*************************** boton 4 ******************************************
 $(document).ready(function() {
 $('.boton4').click(function() {
-$('.cuerpo').fadeOut('fast');
-$('.posts3').show('fast');
-$('.post_tres').show('fast');
-$('.coment_tres').show('fast');
+$('.cuerpo').fadeOut('slow');
+$('.posts3').show('slow');
+$('.post_tres').show('slow');
+$('.coment_tres').show('slow');
 });
 });
 //******************************************************************************
@@ -99,7 +99,7 @@ $(document).ready(function() {
 //************************** COMENTARIOS post dos*******************************
 $(document).ready(function() {
     $('.boton-comentario-dos').click(function() {
-      var toAdd = $("input[name=message]").val();
+      var toAdd = $("input[name=message2]").val();
         $('.mensaje_dos').append("<p>"+toAdd+"</p>");
     });
 });
@@ -111,7 +111,7 @@ $(document).ready(function() {
 //************************** COMENTARIOS post tres******************************
 $(document).ready(function() {
     $('.boton-comentario-tres').click(function() {
-      var toAdd = $("input[name=message]").val();
+      var toAdd = $("input[name=message3]").val();
         $('.mensaje_tres').append("<p>"+toAdd+"</p>");
     });
 });
@@ -123,7 +123,17 @@ $(document).ready(function() {
 $(document).ready(function() {
 $('div.menu>div').hide();
 })
-
+//******************************************************************************
+//*************************** boton 2 ******************************************
+$(document).ready(function() {
+$('.boton_post_uno_retorno').click(function() {
+$('.cuerpo').show('slow');
+$('.posts').show('slow');
+$('.post_uno').show('slow');
+$('.coment_uno').show('slow');
+});
+});
+//******************************************************************************
 
 
 //******************************************************************************

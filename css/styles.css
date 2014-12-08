@@ -6,7 +6,7 @@
 }
 .home
 {
-	color:#0080FF;
+	color:red;
 	font-size:20px;
 	float:right; 
 	margin: -30px 30px 10px 10px; 
@@ -187,9 +187,12 @@ border-radius: 3px;
 }
 
 .mensaje_uno {
-font-size: 14px;
+font-size: 20px;
 font-family: Garamond, Times, Serif;
-margin-left: 18%;
+margin:15px 750px 1px 300px;
+color:#1C1C1C;
+text-align: center;
+background-color:#D8D8D8;
 
 }
 .coment_uno
@@ -210,9 +213,12 @@ border-radius: 3px;
 }
 
 .mensaje_dos {
-font-size: 14px;
+font-size: 20px;
 font-family: Garamond, Times, Serif;
-margin-left: 18%;
+margin:15px 750px 1px 300px;
+color:#1C1C1C;
+text-align: center;
+background-color:#D8D8D8;
 
 }
 .coment_dos
@@ -232,10 +238,12 @@ border-radius: 3px;
 }
 
 .mensaje_tres {
-font-size: 14px;
+font-size: 20px;
 font-family: Garamond, Times, Serif;
-margin-left: 18%;
-
+margin:15px 750px 1px 300px;
+color:#1C1C1C;
+text-align: center;
+background-color:#D8D8D8;
 }
 .coment_tres
 {
@@ -270,4 +278,8 @@ margin-left: 18%;
 	background-color:#A4A4A4;
 	border-radius: 5px;
 	color:#1C1C1C;
+}
+
+.highlight { 
+	background-color: yellow 
 }
