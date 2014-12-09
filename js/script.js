@@ -30,7 +30,6 @@ $('.post_uno').show('slow');
 $('.coment_uno').show('slow');
 });
 });
-
 //******************************************************************************
 //*************************** boton 3 ******************************************
 $(document).ready(function() {
@@ -73,7 +72,6 @@ $(this).toggle(1000);
 });
 });
 
-
 //******************************************************************************
 //*****************************boton buscar*************************************
 
@@ -105,6 +103,21 @@ $(document).ready(function() {
     });
 });
 //******************************************************************************
+//***************************   BUSCADOR****************************************
+$.expr[':'].icontains = function(obj, index, meta, stack){
+return (obj.textContent || obj.innerText || jQuery(obj).text() || '').toLowerCase().indexOf(meta[3].toLowerCase()) >= 0;
+};
+$(document).ready(function(){  
+    $('#buscador').keyup(function(){
+                 buscar = $(this).val();
+                 $('#lista p').removeClass('resaltar');
+                        if(jQuery.trim(buscar) != ''){
+                           $("#lista p:icontains('" + buscar + "')").addClass('resaltar');
+                        }
+        });
+});  
+
+//******************************************************************************
 //******************************************************************************
 
 
@@ -118,36 +131,12 @@ $(document).ready(function() {
 });
 //******************************************************************************
 //**************************buscador*************************************
- //
-    $.expr[':'].icontains = function(obj, index, meta, stack){
-    return (obj.textContent || obj.innerText || jQuery(obj).text() || '').toLowerCase().indexOf(meta[3].toLowerCase()) >= 0;
-    };
-    $(document).ready(function(){   
-        $('#buscador').keyup(function(){
-                     buscar = $(this).val();
-                     $('#lista li').removeClass('resaltar');
-                            if(jQuery.trim(buscar) != ''){
-                               $("#lista li:icontains('" + buscar + "')").addClass('resaltar');
-                            }
-            });
-    });   
- // 
 
 //******************************************************************************
 //******************************** PROBANDO*************************************
 $(document).ready(function() {
 $('div.menu>div').hide();
 })
-//******************************************************************************
-//*************************** boton 2 ******************************************
-$(document).ready(function() {
-$('.boton_post_uno_retorno').click(function() {
-$('.cuerpo').show('slow');
-$('.posts').show('slow');
-$('.post_uno').show('slow');
-$('.coment_uno').show('slow');
-});
-});
 //******************************************************************************
 
 
