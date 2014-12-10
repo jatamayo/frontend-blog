@@ -135,9 +135,6 @@ $('.post_cuatro').hide('slow');
 $('.coment_cuatro').hide('slow');
 $('.post_cinco').hide('slow');
 $('.coment_cinco').hide('slow');
-
-
-
 });
 });
 
