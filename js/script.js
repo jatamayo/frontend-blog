@@ -51,6 +51,7 @@ $('.cuerpo').fadeOut('slow');
 $('.posts3').show('slow');
 $('.post_tres').show('slow');
 $('.coment_tres').show('slow');
+
 });
 });
 //******************************************************************************
@@ -61,18 +62,51 @@ $('.cuerpo').fadeOut('slow');
 $('.posts4').show('slow');
 $('.post_cuatro').show('slow');
 $('.coment_cuatro').show('slow');
+$('.post_extras').hide('slow');
 });
 });
+
 //******************************************************************************
-//******************** boton 6 post related to human envy...!!******************
+//******************** boton 6 post related to test personality...!!******************
 $(document).ready(function() {
 $('.boton6').click(function() {
 $('.cuerpo').hide('slow');
 $('.posts5').show('slow');
 $('.post_cinco').show('slow');
 $('.coment_cinco').show('slow');
+$('.post_extras').hide('slow');
 });
 });
+//******************************************************************************
+//*********************boton  older post***************************************
+
+$(document).ready(function() {
+$('.boton_older').click(function() {
+$('.cuerpo').fadeOut('slow');
+$('.post_extras').show('slow');
+$('.posts').hide('slow');
+$('.posts2').hide('slow');
+$('.posts3').hide('slow');
+$('.posts4').hide('slow');
+$('.posts5').hide('slow');
+$('.post_uno').hide('slow');
+$('.coment_uno').hide('slow');
+$('.post_dos').hide('slow');
+$('.coment_dos').hide('slow');
+$('.post_tres').hide('slow');
+$('.coment_tres').hide('slow');
+$('.post_cuatro').hide('slow');
+$('.coment_cuatro').hide('slow');
+$('.post_cinco').hide('slow');
+$('.coment_cinco').hide('slow');
+
+
+
+});
+});
+
+
+
 //******************************************************************************
 //************************** COMENTARIOS post uno*******************************
 $(document).ready(function() {
@@ -141,23 +175,21 @@ $(document).ready(function(){
 
 //******************************************************************************
 //***************************** boton older post********************************
-$(document).ready(function() {
-$('.post').mouseenter(function() {
-$(this).animate({
-height: '+=10px'
-});
-});
-$('.post').mouseleave(function() {
-$(this).animate({
-height: '-=10px'
-});
-});
-$('.post').click(function() {
-$(this).toggle(1000);
-
-});
-});
-
+//$(document).ready(function() {
+//$('.post').mouseenter(function() {
+//$(this).animate({
+//height: '+=10px'
+//});
+//});
+//$('.post').mouseleave(function() {
+//$(this).animate({
+//height: '-=10px'
+//});
+//});
+//$('.post').click(function() {
+//$(this).toggle(1000);
+//});
+//});
 //******************************************************************************
 //******************************************************************************
 //******************************************************************************

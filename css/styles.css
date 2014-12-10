@@ -125,6 +125,7 @@ form
 	margin-bottom: 50px;
 	
 	border-radius: 3%;
+	
 }
 .subtitle5
 {
@@ -132,6 +133,7 @@ form
 	color: #0489B1;
 	font-size: 30px;
 	margin-right: 90px;
+	
 }
 /*****************************************************/
 .boton6
@@ -142,6 +144,7 @@ form
 	margin-bottom: 50px;
 	
 	border-radius: 3%;
+	
 }
 .subtitle6
 {
@@ -149,7 +152,16 @@ form
 	color: #0489B1;
 	font-size: 30px;
 	margin-right: 90px;
+	
 }
+/*****************************************************/
+/*****************************************************/
+.post_extras
+{
+	display:none;
+}
+/*****************************************************/
+
 /*****************************************************/
 /****************PRIMER POST**************************/
 .post_uno
@@ -172,6 +184,13 @@ form
 	width:115px;
 	height:25px;
 	background-color:#E6E8FA;
+}
+.posts
+{
+	margin-left: 300px;
+	margin-right: 100px;
+	margin-top: 5px;
+	display: none;
 }
 /*************COMENTARIO PRIMER POST*****************/
 .coment_uno
@@ -407,17 +426,13 @@ form
 }
 /*****************************************************/
 /***************BOTON OLDER POST**********************/
-.posts
+.boton_older
 {
-	margin-left: 300px;
-	margin-right: 100px;
-	margin-top: 5px;
-	display: none;
+	color:#0489B1;
+	margin-left: 900px;
 }
 /*****************************************************/
 /*****************************************************/
-
-
 
 
 
