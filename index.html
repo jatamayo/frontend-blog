@@ -14,6 +14,20 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
     <meta name="author" content="">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
+
+	<!-- Bootstrap core CSS -->
+	<link type='text/css' rel="stylesheet" href="css/libs/bootstrap.css">
+
+	<!-- Custom styles for this template -->
+	<link type="text/css" rel="stylesheet" href="css/styles.css">
+
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
 <!--****************************************************************************************************************************-->
 <!--**************************BUSCADOR******************************************************************************************-->
 	<script type="text/javascript" src="jquery-1.4.2.min.js"></script> 
@@ -25,6 +39,13 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 	<title>
 		Cognits Blog
 	</title>
+</head>
+
+<body>
+<!--****************************************************************************************************************************-->
+<!--*************************************** INICIO CUERPO DEL BLOG *************************************************************-->
+<!--****************************************************************************************************************************-->
+
 
 	<p class="cognits">
 		<strong>
@@ -53,28 +74,9 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 	</p>
 <!--****************************************************************************************************************************-->
 
-	<!-- Bootstrap core CSS -->
-	<link href="css/libs/bootstrap.css" rel="stylesheet" >
-
-	<!-- Custom styles for this template -->
-	<link href="css/styles.css" rel="stylesheet">
 
 
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-</head>
-
-<body>
-<!--****************************************************************************************************************************-->
-<!--*************************************** INICIO CUERPO DEL BLOG *************************************************************-->
-<!--****************************************************************************************************************************-->
 <!--************************************ SEGUNDO TITULO STATICO COGNITS*********************************************************-->
-	<style>
-		.resaltar{background-color:#BDBDBD;}
-	</style>
 	<div id="lista">
 		<p></p>
 		<hr/> 
@@ -90,11 +92,13 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 <!--****************************************************************************************************************************-->
 <!--*****************************************CUERPO DEL BLOG********************************************************************-->
 		<div class="cuerpo">
-			<div >
-				<button class="boton2">
+			<div>
+				
 					<p class="subtitle">
 						<strong>
+							<button class="boton2">
 							post related to human envy...!!
+							</button>
 						</strong>
 					</p>
 				<p class="subtitle3">
@@ -104,31 +108,35 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 					</span>
 					, Noviembre 10, 2014
 				</p>
+			</div>
+<!--****************************************************************************************************************************-->
+			<div>
+				
+					<p class="subtitle2">
+						<strong>
+						<button class="boton2">
+							post related to human strength...!!
+						</button>
+						</strong>
+					</p>
+					<p class="subtitle3">
+						
+						Posted by 
+						<span style="color:#0489B1">
+							Cognits Student
+						</span>
+						, Noviembre 10, 2014
+					</p>
 				
 			</div>
 <!--****************************************************************************************************************************-->
 			<div>
-				<button class="boton3">
-					<p class="subtitle2">
-						<strong>
-							post related to human strength...!!
-						</strong>
-					</p>
-				<p class="subtitle3">
-					Posted by 
-					<span style="color:#0489B1">
-						Cognits Student
-					</span>
-					, Noviembre 10, 2014
-				</p>
-				</button>
-			</div>
-<!--****************************************************************************************************************************-->
-			<div>
-				<button class="boton4">
+				
 					<p class="subtitle4">
 						<strong>
+							<button class="boton2">
 							post related the story of Naruto
+							</button>
 						</strong>
 					</p>
 					<p class="subtitle3">
@@ -138,16 +146,18 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 						</span>
 						, Noviembre 12, 2014
 					</p>
-				</button>
+				
 			</div>
 		</div>
 <!--****************************************************************************************************************************-->
 		<div class="post_extras">
 			<div>
-				<button class="boton5">
+				
 					<p class="subtitle5">
 						<strong>
+							<button class="boton5">
 							post related cognits values
+							</button>
 						</strong>
 					</p>
 					<p class="subtitle3">
@@ -157,14 +167,16 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 						</span>
 						, Noviembre 12, 2014
 					</p>
-				</button>
+			
 			</div>
 <!--****************************************************************************************************************************-->
 			<div>
-				<button class="boton6">
+				
 					<p class="subtitle6">
 						<strong>
+						<button class="boton6">
 							post related to test personality....!!
+							</button>
 						</strong>
 					</p>
 					<p class="subtitle3">
@@ -174,7 +186,7 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 						</span>
 						, Noviembre 12, 2014
 					</p>
-				</button>
+				
 			</div>
 		</div>
 <!--*****************************************************************************************************************************-->
@@ -195,11 +207,11 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 
 <!--****************************************COMENTARIO PRIMER POST***************************************************************-->
 	<div class="coment_uno">
-		<a href="file:///home/cognits/Desktop/Tamayo/proyectos/frontend-blog/index.html">
-			<button class="boton_post_uno_retorno">
-				COGNITS
-			</button>
-		</a>
+		
+		
+		<button class="boton_post_uno_retorno">
+			COGNITS
+		</button>
 
 		<form>
 			<input type="text" name="message" value="">
@@ -227,10 +239,11 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 <!--****************************************COMENTARIO SEGUNDO POST***************************************************************-->
 	<div class="coment_dos">
 		<a href="file:///home/cognits/Desktop/Tamayo/proyectos/frontend-blog/index.html">
-			<button class="boton_post_dos_retorno">
-				COGNITS
-			</button>
+			
 		</a>
+		<button class="boton_post_dos_retorno">
+				
+			</button>
 
 		<form>
 			<input type="text" name="message2" value="">
@@ -258,11 +271,11 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 <!--****************************************COMENTARIO TERCER POST***************************************************************-->
 	<div class="coment_tres">
 		<a href="file:///home/cognits/Desktop/Tamayo/proyectos/frontend-blog/index.html">
-			<button class="boton_post_tres_retorno">
-				COGNITS
-			</button>
+			COGNITS
 		</a>
-
+		<button class="boton_post_tres_retorno">
+				
+			</button>
 		<form>
 			<input type="text" name="message3" value="">
 		</form>
@@ -290,12 +303,10 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 
 <!--****************************************COMENTARIO CUARTO POST***************************************************************-->
 	<div class="coment_cuatro">
-		<a href="file:///home/cognits/Desktop/Tamayo/proyectos/frontend-blog/index.html">
-			<button class="boton_post_cuatro_retorno">
+	
+		<button class="boton_post_cuatro_retorno">
 				COGNITS
 			</button>
-		</a>
-
 		<form>
 			<input type="text" name="message4" value="">
 		</form>
@@ -321,12 +332,10 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 
 <!--****************************************COMENTARIO PRIMER POST***************************************************************-->
 	<div class="coment_cinco">
-		<a href="file:///home/cognits/Desktop/Tamayo/proyectos/frontend-blog/index.html">
-			<button class="boton_post_cinco_retorno">
-				COGNITS
+		
+		<button class="boton_post_cinco_retorno">
+				
 			</button>
-		</a>
-
 		<form>
 			<input type="text" name="message5" value="">
 		</form>
@@ -350,7 +359,6 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 <!--****************************************************************************************************************************-->
 <!--****************************************************************************************************************************-->
 
-  </div>
 <!--****************************************************************************************************************************-->
 <!--****************************************************************************************************************************-->
   	
@@ -366,5 +374,5 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
     <script src="js/script.js"></script>
     <script src="js/libs/bootstrap.js"></script>
 
-  </body>
+</body>
 </html>

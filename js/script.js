@@ -78,6 +78,42 @@ $('.post_extras').hide('slow');
 });
 });
 //******************************************************************************
+//******************** boton post uno dos y tres retorno ***********************
+$(document).ready(function() {
+$('.boton_post_uno_retorno').click(function() {
+$('.posts').hide('slow');
+$('.cuerpo').show('slow');
+$('.post_uno').hide('slow');
+$('.coment_uno').hide('slow');
+
+
+});
+});
+//******************************************************************************
+//******************** boton post cuatro retorno ***********************
+$(document).ready(function() {
+$('.boton_post_cuatro_retorno').click(function() {
+$('.posts4').hide('slow');
+$('.cuerpo').show('slow');
+$('.post_cuatro').hide('slow');
+$('.coment_cuatro').hide('slow');
+
+
+});
+});
+//******************************************************************************
+//******************** boton post cinco retorno ***********************
+$(document).ready(function() {
+$('.boton_post_cinco_retorno').click(function() {
+$('.posts5').hide('slow');
+$('.cuerpo').show('slow');
+$('.post_cinco').hide('slow');
+$('.coment_cinco').hide('slow');
+
+
+});
+});
+//******************************************************************************
 //*********************boton  older post***************************************
 
 $(document).ready(function() {
