@@ -1,16 +1,28 @@
+
+/*****************************************************/
+/*******APLICACIONES GENERALES SIN CLACES, O ID*******/
+div
+{
+	margin-top: -19px;
+}
+form 
+{
+	font-size: 12px;
+	font-family: Verdana, Arial, Sans-Serif;
+	display: inline-block;
+	margin-left: -388px;
+	margin-top:50px;
+}
+/*************titulo estatico de cognits**************/
+/*****************************************************/
 .cognits
 {
 	color:#696969;
 	font-size:23px;
 	margin: 15px 10px 10px 10px; 
 }
-.home
-{
-	color:red;
-	font-size:20px;
-	float:right; 
-	margin: -30px 30px 10px 10px; 
-}
+/******************BOTON BUSCAR***********************/
+/*****************************************************/
 .buscar
 {
 	color:#0489B1;
@@ -18,6 +30,18 @@
 	float: right;
 	margin: -30px 30px 10px 10px; 
 }
+/******************BOTON RETORNO HOME*****************/
+/*****************************************************/
+.home
+{
+	color:red;
+	font-size:20px;
+	float:right; 
+	margin: -30px 30px 10px 10px; 
+}
+
+/**************INICIO CUERPO DEL BLOG******************/
+/**********SEGUNDO TITULO ESTATICO COGNITS*************/
 .cognits_blog
 {
 	font-size: 40px;
@@ -30,6 +54,18 @@
 	margin-top: -10px;
 	margin-bottom: 150px;
 }
+
+/*****************************************************/
+/********************CUERPO DEL BLOG******************/
+.boton2
+{
+	background-color: none;
+	margin-left: 270px;
+	text-align: left;
+	margin-bottom: 50px;
+	
+	border-radius: 3%;
+}
 .subtitle
 {
 	margin-left: 25px ;
@@ -37,20 +73,23 @@
 	font-size: 30px;
 	margin-right: 100px;
 }
-.subtitle4
-{
-	margin-left: 25px ;
-	color: #0489B1;
-	font-size: 30px;
-	margin-right: 90px;
-}
-.greatest
+
+.subtitle3
 {
 	margin-left: 25px;
-	margin-top: -20px;
+	margin-top: -10px;
+	max-height: 235px;
 	margin-bottom: 25px;
-	color: #0489B1;
-	font-size: 30px;
+}
+/*****************************************************/
+.boton3
+{
+	background-color: none;
+	margin-left: 270px;
+	text-align: left;
+	margin-bottom: 50px;
+	
+	border-radius: 3%;
 }
 .subtitle2
 {
@@ -60,12 +99,68 @@
 	color: #0489B1;
 	font-size: 30px;
 }
-.subtitle3
+/*****************************************************/
+.boton4
 {
-	margin-left: 25px;
-	margin-top: -10px;
-	max-height: 235px;
-	margin-bottom: 25px;
+	background-color: none;
+	margin-left: 270px;
+	text-align: left;
+	margin-bottom: 50px;
+	
+	border-radius: 3%;
+}
+.subtitle4
+{
+	margin-left: 25px ;
+	color: #0489B1;
+	font-size: 30px;
+	margin-right: 90px;
+}
+/*****************************************************/
+.boton5
+{
+	background-color: none;
+	margin-left: 270px;
+	text-align: left;
+	margin-bottom: 50px;
+	
+	border-radius: 3%;
+}
+.subtitle5
+{
+	margin-left: 25px ;
+	color: #0489B1;
+	font-size: 30px;
+	margin-right: 90px;
+}
+/*****************************************************/
+.boton6
+{
+	background-color: none;
+	margin-left: 270px;
+	text-align: left;
+	margin-bottom: 50px;
+	
+	border-radius: 3%;
+}
+.subtitle6
+{
+	margin-left: 25px ;
+	color: #0489B1;
+	font-size: 30px;
+	margin-right: 90px;
+}
+/*****************************************************/
+/****************PRIMER POST**************************/
+.post_uno
+{
+	margin-left: 295px ;
+	color: #6E6E6E;
+	font-size: 30px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+
+	display: none;
 }
 .post
 {
@@ -78,74 +173,39 @@
 	height:25px;
 	background-color:#E6E8FA;
 }
-div
+/*************COMENTARIO PRIMER POST*****************/
+.coment_uno
 {
-	margin-top: -19px;
-
-}
-
-.posts
-{
-	margin-left: 300px;
-	margin-right: 100px;
-	margin-top: 5px;
 	display: none;
 }
-
-.posts2
+.boton_post_uno_retorno
 {
-	margin-left: 300px;
-	margin-right: 100px;
-	margin-top: 7px;
-	display: none;
+	margin-left: 600px;
+	margin-top: -100px;
+	background-color:#A4A4A4;
+	border-radius: 5px;
+	color:#1C1C1C;
 }
-
-.posts3
+.boton-comentario-uno 
 {
-	margin-left: 300px;
-	margin-right: 100px;
-	margin-top: 7px;
-	display: none;
+	text-decoration: none;
+	background: #A4A4A4;
+	color: #222;
+	border: 1px outset #CCC;
+	padding: .1em .5em;
+	border-radius: 3px;
 }
-.boton2
+.mensaje_uno 
 {
-	background-color: none;
-	margin-left: 270px;
-	text-align: left;
-	margin-bottom: 50px;
-	
-	border-radius: 3%;
+	font-size: 20px;
+	font-family: Garamond, Times, Serif;
+	margin:15px 750px 1px 300px;
+	color:#1C1C1C;
+	text-align: center;
+	background-color:#D8D8D8;
 }
-.boton3
-{
-	background-color: none;
-	margin-left: 270px;
-	text-align: left;
-	margin-bottom: 50px;
-	
-	border-radius: 3%;
-}
-.boton4
-{
-	background-color: none;
-	margin-left: 270px;
-	text-align: left;
-	margin-bottom: 50px;
-	
-	border-radius: 3%;
-}
-
-.post_uno
-{
-	margin-left: 295px ;
-	color: #6E6E6E;
-	font-size: 30px;
-	margin-right: 50px;
-	margin-bottom: 30px;
-
-	display: none;
-}
-
+/*****************************************************/
+/****************SEGUNDO POST*************************/
 .post_dos
 {
 	margin-left: 295px ;
@@ -156,7 +216,46 @@ div
 
 	display: none;
 }
-
+.posts2
+{
+	margin-left: 300px;
+	margin-right: 100px;
+	margin-top: 7px;
+	display: none;
+}
+/*************COMENTARIO SEGUNDO POST*****************/
+.coment_dos
+{
+	display: none;
+}
+.boton_post_dos_retorno
+{
+	margin-left: 600px;
+	margin-top: -100px;
+	background-color:#A4A4A4;
+	border-radius: 5px;
+	color:#1C1C1C;
+}
+.boton-comentario-dos 
+{
+	text-decoration: none;
+	background: #A4A4A4;
+	color: #222;
+	border: 1px outset #CCC;
+	padding: .1em .5em;
+	border-radius: 3px;
+}
+.mensaje_dos 
+{
+	font-size: 20px;
+	font-family: Garamond, Times, Serif;
+	margin:15px 750px 1px 300px;
+	color:#1C1C1C;
+	text-align: center;
+	background-color:#D8D8D8;
+}
+/*****************************************************/
+/****************TERCER POST*************************/
 .post_tres
 {
 	margin-left: 295px ;
@@ -167,110 +266,19 @@ div
 
 	display: none;
 }
-form {
-font-size: 12px;
-font-family: Verdana, Arial, Sans-Serif;
-display: inline-block;
-margin-left: -388px;
-margin-top:50px;
-}
 
-.boton-comentario-uno {
-text-decoration: none;
-background: #A4A4A4;
-color: #222;
-border: 1px outset #CCC;
-padding: .1em .5em;
-border-radius: 3px;
-
-
-}
-
-.mensaje_uno {
-font-size: 20px;
-font-family: Garamond, Times, Serif;
-margin:15px 750px 1px 300px;
-color:#1C1C1C;
-text-align: center;
-background-color:#D8D8D8;
-
-}
-.coment_uno
+.posts3
 {
+	margin-left: 300px;
+	margin-right: 100px;
+	margin-top: 7px;
 	display: none;
-
 }
-
-
-.boton-comentario-dos {
-text-decoration: none;
-background: #A4A4A4;
-color: #222;
-border: 1px outset #CCC;
-padding: .1em .5em;
-border-radius: 3px;
-
-}
-
-.mensaje_dos {
-font-size: 20px;
-font-family: Garamond, Times, Serif;
-margin:15px 750px 1px 300px;
-color:#1C1C1C;
-text-align: center;
-background-color:#D8D8D8;
-
-}
-.coment_dos
-{
-	display: none;
-
-}
-
-.boton-comentario-tres {
-text-decoration: none;
-background: #A4A4A4;
-color: #222;
-border: 1px outset #CCC;
-padding: .1em .5em;
-border-radius: 3px;
-
-}
-
-.mensaje_tres {
-font-size: 20px;
-font-family: Garamond, Times, Serif;
-margin:15px 750px 1px 300px;
-color:#1C1C1C;
-text-align: center;
-background-color:#D8D8D8;
-}
+/*************COMENTARIO TERCER POST*****************/
 .coment_tres
 {
 	display: none;
-
 }
-
-
-
-.boton_post_uno_retorno
-{
-	margin-left: 600px;
-	margin-top: -100px;
-	background-color:#A4A4A4;
-	border-radius: 5px;
-	color:#1C1C1C;
-}
-
-.boton_post_dos_retorno
-{
-	margin-left: 600px;
-	margin-top: -100px;
-	background-color:#A4A4A4;
-	border-radius: 5px;
-	color:#1C1C1C;
-}
-
 .boton_post_tres_retorno
 {
 	margin-left: 600px;
@@ -279,7 +287,142 @@ background-color:#D8D8D8;
 	border-radius: 5px;
 	color:#1C1C1C;
 }
-
-.highlight { 
-	background-color: yellow 
+.boton-comentario-tres 
+{
+	text-decoration: none;
+	background: #A4A4A4;
+	color: #222;
+	border: 1px outset #CCC;
+	padding: .1em .5em;
+	border-radius: 3px;
 }
+.mensaje_tres 
+{
+	font-size: 20px;
+	font-family: Garamond, Times, Serif;
+	margin:15px 750px 1px 300px;
+	color:#1C1C1C;
+	text-align: center;
+	background-color:#D8D8D8;
+}
+/*****************************************************/
+/****************CUARTO POST*************************/
+.post_cuatro
+{
+	margin-left: 295px ;
+	color: #6E6E6E;
+	font-size: 30px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	display: none;
+}
+.posts4
+{
+	margin-left: 300px;
+	margin-right: 100px;
+	margin-top: 7px;
+	display: none;
+}
+/*************COMENTARIO CUARTO POST*****************/
+.coment_cuatro
+{
+	display: none;
+}
+.boton_post_cuatro_retorno
+{
+	margin-left: 600px;
+	margin-top: -100px;
+	background-color:#A4A4A4;
+	border-radius: 5px;
+	color:#1C1C1C;
+}
+.boton-comentario-cuatro 
+{
+	text-decoration: none;
+	background: #A4A4A4;
+	color: #222;
+	border: 1px outset #CCC;
+	padding: .1em .5em;
+	border-radius: 3px;
+}
+.mensaje_cuatro 
+{
+	font-size: 20px;
+	font-family: Garamond, Times, Serif;
+	margin:15px 750px 1px 300px;
+	color:#1C1C1C;
+	text-align: center;
+	background-color:#D8D8D8;
+}
+/*****************************************************/
+/****************QUINTO POST*************************/
+.post_cinco
+{
+	margin-left: 295px ;
+	color: #6E6E6E;
+	font-size: 30px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+
+	display: none;
+}
+
+.posts5
+{
+	margin-left: 300px;
+	margin-right: 100px;
+	margin-top: 7px;
+	display: none;
+}
+/*************COMENTARIO QUINTO POST*****************/
+.coment_cinco
+{
+	display: none;
+}
+.boton_post_cinco_retorno
+{
+	margin-left: 600px;
+	margin-top: -100px;
+	background-color:#A4A4A4;
+	border-radius: 5px;
+	color:#1C1C1C;
+}
+.boton-comentario-cinco
+{
+	text-decoration: none;
+	background: #A4A4A4;
+	color: #222;
+	border: 1px outset #CCC;
+	padding: .1em .5em;
+	border-radius: 3px;
+}
+.mensaje_cinco
+{
+	font-size: 20px;
+	font-family: Garamond, Times, Serif;
+	margin:15px 750px 1px 300px;
+	color:#1C1C1C;
+	text-align: center;
+	background-color:#D8D8D8;
+}
+/*****************************************************/
+/***************BOTON OLDER POST**********************/
+.posts
+{
+	margin-left: 300px;
+	margin-right: 100px;
+	margin-top: 5px;
+	display: none;
+}
+/*****************************************************/
+/*****************************************************/
+
+
+
+
+
+
+
+
+
+
